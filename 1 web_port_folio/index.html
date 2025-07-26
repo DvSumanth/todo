@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumanth Web portfolio</title>
+    
+    <link rel="stylesheet" href="../1_web_portfolio/fanta (1).css">
+    <link rel="stylesheet" href="../1_web_portfolio/styles.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+        <a href="/"Web>Somu</a>
+        <nav>
+            <a target="_blank" href="https://github.com/DvSumanth"><i class="fa-brands fa-github"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/sumanth-d-v-a09604255/"><i class="fa-brands fa-linkedin"></i></a>
+            </nav>
+      </head>
+        <main>
+            <section>
+            
+                <div class="intro-header">
+                    <h1>Kia ora! Iam Somu..</h1>
+                    <p>Software WebDeveloper....</p>
+                </div>
+                <h5  class ="intro =description">
+                    A civil Enginneer by qualification ,amd a software developer by trade. Bsaed in Newzealand ,i love to walk, play video 
+                    games,and build out all sorts of fun  anf use ful interent applications!!. 
+                </h5>
+                <div class = "links-container">
+                     <i class="fa-solid fa-arrow-right"></i>
+                    <a target="_blank" href="">
+                       
+                     Email me</a>
+                <a target="_blank" href="https://github.com/DvSumanth">GitHub</i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/sumanth-d-v-a09604255/">
+                    LinkedIn </a>
+                </div>
+
+                <div id="play-game">
+                <button onclick="playGame()">Play game</button>
+                 </div>
+
+                   <div style="display:none;" class="color-div">
+                  <h4>Pick a color</h4>
+               <p style="display: none;">Great... now it's ruined!</p>
+              <input type="color" id="color-picker" value="#0084ff" onchange="changeColor()" />
+                   <button style="display: none;" onclick="resetColor()">Reset</button>
+                   </div>
+
+            </section>
+
+            <section> 
+                <h2>Skills</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Area </th>
+                            <th>Technologies </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr> 
+                            <td>Javascript</td>
+                            <td > ReactJS | React Native | NextJS | NodesJS &
+                                ExpressJS | Sweltekit | Qwik  </td>
+                        </tr>
+                         <tr>  
+                            <td>Python</td>
+                            <td>Data analyst | Django  | Data visualization</td>
+                        </tr>
+                         <tr> 
+                            <td>Web</td>
+                            <td>TailwindCss  | FantaCSS | Firebae | PostgreSQL | CI/CD | GIT | Docker| 
+                                Kubernteness | AWS   
+                            </td>
+                        </tr>
+                         <tr> 
+                            <td>Design</td>
+                            <td>Canvas | Pixir | Microsoft Paint  </td>                           
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                 <h2>Lastest Projects</h2>
+                <div class="cards-grid">
+                <div class="project-card">
+                    <div>
+                        <p>July 15,2024</p>
+                        <h4>Smoljames</h4>
+                        <div class="tech-list">
+                            <div class="card-button-secondary">
+                                <p>NextJS</p>       
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>NextJS</p>       
+                            </div>
+                            <div class ="card-button-secondary">
+                                <p>NextJS</p>       
+                            </div>
+                        </div>
+                        <p>Smoljames is a hub for all things learning  to 
+                            and landing a job as a software developer.
+                         </p>
+                   <div class="project-links">
+                    <a target="_blank" href="/">Live</a>
+                    <a target="_blank" href="/">GitHub</a>
+                    </div>
+                   </div>
+                   <div class="img-div">
+                 <img class="big-img" src="/public/fanta.png" alt="smoljames-thumbnail"/>
+                   </div>
+
+
+            <div class="project-card"> 
+                <div>
+                    <p>July 15,2023</p>
+                    <h4>Smoljames</h4>
+                    <div class="card-button-secondary">
+                        <p>NextJS</p>
+                    </div>
+                    <div class="card-button-secondary">
+                        <p>NextJs</p>
+                    </div>
+
+                    <div class="card-button-secondary">
+                    </div>
+                </div>
+                <p> Smoljames is a hub for all things learning  to 
+                    and landing a job as a software developer.
+                </p>
+                <div class="project-links">
+                    <a target="_blank" href="/">Live</a>
+                    <a target="_blank" href="/">GitHub</a>
+                </div>
+            </div>
+            <div class="img-div">
+              <img class="big-img" src="/public/hyr.png" alt="smoljames-thumbnail"/>
+             </div>
+            </div>
+
+
+        <div class="project-card">
+                <div>
+                    <p>July 15,2023</p>
+                    <h4>Smoljames</h4>
+                    <div class="card-button-secondary">
+                        <p>NextJS</p>
+                    </div>
+                    <div class="card-button-secondary">
+                        <p>NextJs</p>
+                    </div>
+                    <div class="card-button-secondary">
+                    </div>
+                </div>
+                <p> Smoljames is a hub for all things learning  to 
+                    and landing a job as a software developer.
+                </p>
+                <div class="project-links">
+                    <a target="_blank" href="/">Live</a>
+                    <a target="_blank" href="/">GitHub</a>
+           </div>
+            </div>
+
+            <div class="img-div">
+              <img class="big-img" src="/public/smoljames.png" alt="smoljames-thumbnail"/>
+             </div>
+            </div>
+        </div>
+        </section>
+        </main>
+    
+    </footer>
+
+   <p>By <a href="https: //wwww.smoljames.com"
+         target="_blank">Smoljames</a> ⭐ the repo on
+          <a target="_blank"
+            href="">GitHub</a></p>
+    </footer>
+
+  <script>
+
+    const body = document.querySelector('body');
+    const colorInput = document.getElementById('color-picker');
+    const colorDiv = document.querySelector('.color-div');
+    const hiddenText = document.querySelector('.color-div p');
+    const resetBtn = document.querySelector('.color-div button');
+    const playBtn = document.getElementById('play-game');
+
+
+function playGame() {
+   
+    colorDiv.style.display = 'block';
+     playBtn.style.display = 'none';
+}
+ function  changeColor() {
+
+    const selectedColor = colorInput.value;
+      body.style.background = selectedColor;
+      resetBtn.style.display = 'block';
+      hiddenText.style.display = 'block';
+      colorInput.style.display = 'none';
+
+ }
+
+function resetColor() { 
+     body.style.background = 'white';
+      colorInput.style.display = 'block';
+      hiddenText.style.display = 'none';
+      resetBtn.style.display = 'none';
+      colorDiv.style.display = 'none';
+      playBtn.style.display = 'block';
+}
+
+</script>
+</body>
+</html>
